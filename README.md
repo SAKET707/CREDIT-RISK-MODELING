@@ -17,6 +17,7 @@ Features
     Interactive UI for entering applicant details.
 
     Real-time model inference using pre-trained artifacts.
+    
     ************************************************************************************************************************************************************************************************************
 Model Overview
 
