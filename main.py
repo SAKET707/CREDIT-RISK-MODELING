@@ -23,7 +23,7 @@ with row2[0]:
     st.text(f"{loan_to_income_ratio : .2f}")
 with row2[1]:
     delinquency_ratio = st.number_input('Delinquency Ratio', min_value=0, max_value=100, step=1, value=0) 
-with row3[2]:
+with row2[2]:
     avg_dpd_per_delinquency = st.number_input('Avg DPD', min_value=0, value=0)
 
 with row3[0]:
