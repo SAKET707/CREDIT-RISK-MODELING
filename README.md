@@ -1,7 +1,8 @@
 
 ************************************************************************************************************************************************************************************************************
-##Credit Risk Modeling App
+Credit Risk Modeling App
 ************************************************************************************************************************************************************************************************************
+URL : https://credit-risk-modeling-by-saket.streamlit.app/
 
 This project is a Streamlit-based web application that predicts an individual's credit risk by estimating their default probability, credit score, and providing a rating (Poor, Average, Good, Excellent). It uses a trained machine learning model built on financial and credit data to assist financial institutions in decision-making.
 
