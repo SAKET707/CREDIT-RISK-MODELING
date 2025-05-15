@@ -49,7 +49,7 @@ def prepare_input(age, income, loan_amount, loan_tenure_months, avg_dpd_per_deli
     return df
 
 def calculate_credit_score(input_df,base_score=300,scale_length=600):
-    x= np.dot(input_df.values , model.coeff_.T) + model.intercept_
+    x= np.dot(input_df.values , model.coef_.T) + model.intercept_
     default_probability = 1/(1+ np.exp(-x))
     non_default_probability = 1 - default_probability
 
