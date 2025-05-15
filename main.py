@@ -3,10 +3,10 @@ from prediction_helper import predict
 
 st.title("CREDIT RISK MODELING")
 
-row1 = st.column(3)
-row2 = st.column(3)
-row3 = st.column(3)
-row4 = st.column(3)
+row1 = st.columns(3)
+row2 = st.columns(3)
+row3 = st.columns(3)
+row4 = st.columns(3)
 
 with row1[0]:
     age = st.number_input('Age',min_value=18,max_value=100,step=1,value=18)
