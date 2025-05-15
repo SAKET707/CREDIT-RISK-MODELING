@@ -18,7 +18,7 @@ Features
 
     Real-time model inference using pre-trained artifacts.
     
-    ************************************************************************************************************************************************************************************************************
+   ************************************************************************************************************************************************************************************************************
 Model Overview
 
 The backend model is a logistic regression classifier trained on credit-related features. It outputs the probability of loan default, which is then transformed into a credit score using a scoring formula.
@@ -61,7 +61,7 @@ After submitting inputs, the model returns:
         750–900: Excellent
 
 ************************************************************************************************************************************************************************************************************
-⚙How It Works
+How It Works
 
     Input Transformation:
 
@@ -82,7 +82,7 @@ After submitting inputs, the model returns:
         score = base_score + non_default_prob * scale_length
 
 ************************************************************************************************************************************************************************************************************
-🛠 Dependencies
+Dependencies
 
     streamlit
 
